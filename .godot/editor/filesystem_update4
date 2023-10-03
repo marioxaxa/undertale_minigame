@@ -1,0 +1,8 @@
+res://src/scenes/main_scene.tscn
+res://src/scenes/tile.tscn
+res://src/scenes/arena.tscn
+res://src/scenes/player.tscn
+res://src/scenes/base_tile.tscn
+res://src/scripts/arena.gd
+res://src/scripts/base_tile.gd
+res://src/scripts/player.gd

@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://be26t3joix7s"]
+
+[ext_resource type="Script" path="res://src/scripts/arena.gd" id="1_cyc0k"]
+[ext_resource type="PackedScene" uid="uid://c5bsq5t4tag0g" path="res://src/scenes/player.tscn" id="2_uinj3"]
+[ext_resource type="PackedScene" uid="uid://th0aiabxuxmw" path="res://src/scenes/base_tile.tscn" id="3_cnned"]
+
+[node name="arena" type="Node2D"]
+script = ExtResource("1_cyc0k")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="inicial_tile" parent="." instance=ExtResource("3_cnned")]
+position = Vector2(-1.19209e-07, -1.42109e-14)
+
+[node name="player" parent="." instance=ExtResource("2_uinj3")]
+z_index = 1
